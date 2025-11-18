@@ -1,0 +1,17 @@
+//first import dependencies
+Postgresql
+hibernate
+
+then create a config file for connection metadata
+
+then create a POJO class getters and setters , toString
+
+create a session Factory
+    configure
+    buildSession
+
+Open a session using session Factory - for every transaction
+persist the object
+create a transaction to reflect it to the database
+then commit the transaction
+***********hurrayyyy***************
