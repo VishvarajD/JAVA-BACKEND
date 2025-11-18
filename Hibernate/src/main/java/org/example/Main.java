@@ -36,6 +36,7 @@ public class Main {
         Student st = session.find(Student.class,1);
         System.out.println(st.getId() + " " +st.getAge() +" "+ st.getName());
 //
+
         //Update
         /*
         * update Student set age=?,name=? where id=?
