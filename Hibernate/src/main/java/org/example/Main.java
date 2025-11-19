@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Create Student object
+        //automatically creates a table
         Student student = new Student();
         student.setId(6);
         student.setName("Mohn");
@@ -33,8 +34,8 @@ public class Main {
         and returns a object
         * */
 //        select s1_0.id,s1_0.age,s1_0.name from Student s1_0 where s1_0.id=?
-        Student st = session.find(Student.class,1);
-        System.out.println(st.getId() + " " +st.getAge() +" "+ st.getName());
+//        Student st = session.find(Student.class,1);
+//        System.out.println(st.getId() + " " +st.getAge() +" "+ st.getName());
 //
 
         //Update
